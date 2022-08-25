@@ -1,0 +1,124 @@
+.chart{
+    -fx-background-color: transparent;
+}
+.chart-plot-background{
+    -fx-background-color: #2c2e33;
+}
+
+.axis{
+    -fx-tick-mark-visible: false;
+    -fx-minor-tick-visible: false;
+    -fx-minor-tick-length: 0;
+    -fx-border-color: transparent;
+}
+.axis-label{
+    -fx-text-fill: transparent;
+}
+.default-color0.chart-bar{
+    -fx-background-color: linear-gradient(to top,blue,aqua)
+}
+.default-color1.chart-bar{
+    -fx-background-color: linear-gradient(to bottom,red,antiquewhite);
+}
+.label{
+    -fx-font-size: 2em;
+    -fx-font-weight: bold;
+    -fx-text-fill: #777982;
+}
+.label1{
+    -fx-font-size: 1.2em;
+    -fx-font-weight: bold;
+    -fx-text-fill: #777982;
+}
+.pane{
+    -fx-background-color: #2c2e33;
+}
+.hbox0{
+    -fx-background-color: #393b3f;
+    -fx-padding: 15;
+    -fx-spacing: 10;
+}
+.hbox1{
+    -fx-background-color: #232428;
+    -fx-padding: 15;
+    -fx-spacing: 10;
+}
+.vbox{
+    -fx-background-color: #2c2e33;
+    -fx-padding: 15;
+    -fx-spacing: 10;
+}
+.radio-button{
+    -fx-text-fill: #777982;
+    -fx-font-weight: bold;
+}
+.button-background{
+    -fx-background-color: #232428;
+}
+#slider .track{
+    -fx-background-color: #2c2e33;
+}
+#slider .thumb{
+    -fx-background-color: #0090df;
+}
+
+#equalizer-slider .track{
+    -fx-background-color: #40434a;
+}
+
+#equalizer-slider .thumb{
+    -fx-background-color: #0090df;
+}
+.list-view{
+    -fx-background-color: #2c2e33;
+}
+.list-cell{
+    -fx-background-color: #232428;
+    -fx-text-fill: #0090df;
+}
+.list-cell:selected{
+    -fx-background-color: #232428;
+    -fx-text-fill: red;
+}
+.list-view .scroll-bar:vertical .track,
+.list-view .scroll-bar:horizontal .track{
+    -fx-background-color: #232428;
+    -fx-border-color: #232428;
+    -fx-background-radius: 0.0em;
+    -fx-border-radius: 2.0em;
+}
+.list-view .scroll-bar:vertical .thumb,
+.list-view .scroll-bar:horizontal .thumb{
+    -fx-background-color: #40434a;
+    -fx-background-insets: 2.0, 0.0, 0.0;
+}
+.list-view .scroll-bar:vertical,
+.list-view .scroll-bar:horizontal{
+    -fx-background-color: #232428;
+}
+
+.list-view .scroll-bar:horizontal .increment-arrow,
+.list-view .scroll-bar:horizontal .decrement-arrow{
+    -fx-shape: " ";
+    -fx-padding: 0.15em 0.0;
+}
+.list-view .scroll-bar:vertical .increment-arrow,
+.list-view .scroll-bar:vertical .decrement-arrow{
+    -fx-shape: " ";
+    -fx-padding: 0.0 0.15em;
+}
+
+.list-view .scroll-bar :vertical .increment-button,
+.list-view .scroll-bar :vertical .decrement-button{
+    -fx-background-color: #232428;
+    -fx-background-radius: 0.0em;
+    -fx-padding: 0.0 0.0 10.0 0.0;
+}
+.list-view .scroll-bar :horizontal .increment-button,
+.list-view .scroll-bar :horizontal .decrement-button{
+    -fx-background-color: 232428;
+    -fx-background-radius: 0.0em;
+    -fx-padding: 0.0 10.0 0.0 0.0;
+}
+
+
